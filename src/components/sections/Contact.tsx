@@ -70,7 +70,7 @@ export const Contact = () => {
         04
       </div>
 
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto md:spx-6">
         {/* Section header */}
         <div className="flex items-center gap-4 mb-16">
           <span className="font-mono text-sm text-muted-foreground">04</span>
@@ -80,7 +80,7 @@ export const Contact = () => {
           </span>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
+        <div className="grid lg:grid-cols-2 w-full gap-16 lg:gap-24">
           {/* Left side */}
           <div>
             <SplitText

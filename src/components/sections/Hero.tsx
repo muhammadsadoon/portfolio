@@ -167,7 +167,7 @@ export const Hero = () => {
           </div>
           <div className="mb-12">
             <SplitText
-              className="text-5xl md:text-7xl lg:text-[120px] font-bold leading-[0.9] tracking-tighter text-foreground/40"
+              className="text-5xl dark:text-foreground/40 md:text-7xl lg:text-[120px] font-bold leading-[0.9] tracking-tighter "
               animation="chars"
               delay={0.3}
               stagger={0.02}

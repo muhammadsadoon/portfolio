@@ -350,10 +350,10 @@ const Scene = () => {
       <directionalLight position={[5, 5, 5]} intensity={1.2} color="#ffffff" castShadow />
       <directionalLight position={[-5, 3, 5]} intensity={0.8} color="#ffffff" />
       <pointLight position={[0, 3, 3]} intensity={1} color="#ffffff" distance={10} />
-      <pointLight position={[-3, -2, 2]} intensity={0.5} color="#aaaaaa" distance={8} />
+      <pointLight position={[-1, -2, 2]} intensity={0.5} color="#aaaaaa" distance={8} />
       <spotLight 
         position={[0, 8, 4]} 
-        angle={0.4} 
+        angle={1.4} 
         penumbra={0.5} 
         intensity={1.5} 
         color="#ffffff"
