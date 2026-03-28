@@ -67,20 +67,20 @@ export const Contact = () => {
     >
       {/* Background number */}
       <div className="absolute top-1/2 -translate-y-1/2 left-0 text-[300px] md:text-[500px] font-bold text-foreground/[0.02] leading-none pointer-events-none select-none">
-        04
+        06
       </div>
 
-      <div className="container mx-auto md:spx-6">
+      <div className="container mx-auto px-6">
         {/* Section header */}
         <div className="flex items-center gap-4 mb-16">
-          <span className="font-mono text-sm text-muted-foreground">04</span>
+          <span className="font-mono text-sm text-muted-foreground">06</span>
           <div className="w-12 h-px bg-foreground/20" />
           <span className="font-mono text-sm text-muted-foreground uppercase tracking-widest">
             Contact
           </span>
         </div>
 
-        <div className="grid lg:grid-cols-2 w-full gap-16 lg:gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-16 lg:gap-24 relative z-10">
           {/* Left side */}
           <div>
             <SplitText
