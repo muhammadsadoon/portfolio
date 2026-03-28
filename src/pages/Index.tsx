@@ -22,28 +22,28 @@ const Index = () => {
         <h1>Muhammad Sadoon - Portfolio</h1>
         <p>Muhammad Sadoon is a Full Stack MERN and React Native Developer specializing in high-performance web and mobile applications.</p>
         <section>
-          <h2>About Muhammad Sadoon - Professional Developer</h2>
-          <p>Muhammad Sadoon is a passionate and detail-oriented developer dedicated to creating high-impact digital experiences. With a focus on technical precision and creative vision, he transforms complex problems into elegant, user-centric solutions. Based in Naval Colony, Karachi, Pakistan, he is committed to staying at the forefront of technology through continuous learning and open-source contribution.</p>
+          <h2>About Muhammad Sadoon - Elite Full Stack Developer & Software Engineer</h2>
+          <p>Muhammad Sadoon is a highly passionate and detail-oriented elite developer based in Karachi, Pakistan, dedicated to creating high-impact digital experiences. With a focus on technical precision, performance optimization, and creative vision, he transforms complex business problems into elegant, user-centric software solutions. As a specialist in the modern web ecosystem, he combines deep architectural knowledge with cutting-edge frontend techniques to build products that stand out. Based in the Naval Colony area, he is committed to staying at the absolute forefront of industry trends through continuous learning, open-source contribution, and mastering advanced frameworks like Next.js and React Native.</p>
         </section>
         <section>
-          <h2>Advanced Skills & Modern Technologies</h2>
-          <p>My technical arsenal includes a deep understanding of the full end-to-end MERN stack. I build robust backend systems with Node.js, Express, and NestJS, optimized with Redis caching and PostgreSQL or MongoDB databases. For the frontend, I utilize React and Next.js, along with TypeScript, Tailwind CSS, and Framer Motion for premium, interactive UI/UX. My mobile expertise covers cross-platform development using React Native for both iOS and Android.</p>
+          <h2>Advanced Technical Skills & Modern Tech Stack Expertise</h2>
+          <p>My technical arsenal includes a profound end-to-end mastery of the MERN stack—MongoDB, Express.js, React, and Node.js. I specialize in building robust, secure, and highly scalable backend systems with Node.js and NestJS, optimized through Redis caching and persistent storage using either PostgreSQL or MongoDB databases. For the client side, I utilize React and Next.js alongside TypeScript, Tailwind CSS, and Framer Motion to deliver premium, interactive, and beautifully animated UI/UX experiences. My mobile expertise covers the entire lifecycle of cross-platform development using React Native for both iOS and Android platforms, ensuring native-like performance and seamless integration.</p>
         </section>
         <section>
-          <h2>Professional Journey & Industry Experience</h2>
-          <p>I have built my professional foundation through challenging roles at respected companies. At App Mesh, I work as a MERN Stack Developer, leading the development of complex features and ensuring platform scalability. My tenure at Developerhub Corporation as a Remote Frontend Developer allowed me to collaborate with global teams to deliver high-performance, responsive interfaces for diverse client needs.</p>
+          <h2>Professional Journey, Career Milestone & Industrial Experience</h2>
+          <p>I have built a solid professional foundation through challenging roles at respected technology companies. At App Mesh, I currently serve as a MERN Stack Developer, where I lead the development of complex platform features and ensure high-level system scalability and security. My previous tenure at Developerhub Corporation as a Remote Frontend Developer allowed me to collaborate with diverse global teams to deliver high-performance, responsive, and pixel-perfect interfaces for a wide variety of client needs across different industries. This journey has equipped me with the skills to handle enterprise-level projects with confidence and precision.</p>
         </section>
         <section>
-          <h2>Selected Technical Projects</h2>
-          <p>My project portfolio highlights my technical range and problem-solving abilities. Features include a real-time Screen Sharing App using WebRTC and Firebase, a SocialBook platform with complex database interactions, and an advanced Resume Builder with dynamic PDF generation. Each project demonstrates a commitment to clean code, performance optimization, and superior user experience.</p>
+          <h2>Selected Technical Projects Portfolio - Web & Mobile Showcase</h2>
+          <p>My project portfolio highlights my broad technical range, problem-solving abilities, and commitment to excellence. Featured works include a cutting-edge real-time Screen Sharing Application built using WebRTC and Firebase, a sophisticated SocialBook platform with complex social graph database interactions, and an advanced Resume Builder featuring dynamic multi-format exports. Each project in this portfolio showcase demonstrates a rigorous commitment to clean code standards, performance optimization, accessibility, and delivering a superior end-user experience. Whether it's a student management system or a complex fintech app, I deliver results that exceed expectations.</p>
         </section>
         <section>
-          <h2>Frequently Asked Questions & Expert Consultation</h2>
-          <p>Seeking expert advice on MERN stack development, React Native mobile apps, or DevOps integration? My FAQ section provides insights into my specialization, development methodology, and availability for custom projects. I prioritize performance, scalability, and high-level SEO in every project I undertake.</p>
+          <h2>Freelance Services, Technical Consultation & App Development</h2>
+          <p>Are you looking to hire a MERN stack developer, a React Native expert, or seeking professional technical consultation for your next big idea? My services cover full-cycle web and mobile app development, performance tuning, and DevOps integration. I prioritize high-performance indexing, world-class SEO, and scalability in every project. This FAQ section provides detailed insights into my technical specialization, development methodology, and current availability for custom freelance projects or full-time roles. I am dedicated to helping business owners and startups achieve their digital goals through innovation.</p>
         </section>
         <section>
-          <h2>Contact Muhammad Sadoon for Opportunities</h2>
-          <p>Ready to start your next project or looking for a talented Full Stack Developer for your team? I am always open to discussing new opportunities, whether for remote full-time positions or freelance collaborations. Let's work together to create something extraordinary that delivers real value to your users.</p>
+          <h2>Hire Muhammad Sadoon - Contact for Opportunities & Collaborations</h2>
+          <p>Ready to kickstart your next innovative project or looking to add a talented, high-performing Full Stack Developer to your engineering team? I am always open to discussing new opportunities, professional collaborations, and remote full-time positions. Located in Karachi, Pakistan, I am available for global remote work. Let's connect and work together to engineer something extraordinary that delivers real, measurable value to your users and drives your business success forward in the digital landscape.</p>
         </section>
       </div>
       {isLoading && <Loader onComplete={() => setIsLoading(false)} />}

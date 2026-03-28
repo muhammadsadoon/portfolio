@@ -11,7 +11,7 @@ interface SEOProps {
 export const SEO = ({
   title = "Muhammad Sadoon | Full Stack MERN & React Native Developer",
   description = "Muhammad Sadoon is a highly skilled Full Stack MERN Developer, PostgreSQL expert, and React Native (iOS & Android) specialist based in Pakistan. With experience at App Mesh and Developerhub Corporation, he specializes in building scalable, high-performance web and mobile applications using modern technologies like Next.js, TypeScript, and Docker. Explore his professional portfolio of advanced digital experiences.",
-  keywords = "Muhammad Sadoon, MERN Stack Developer, React Native Developer, PostgreSQL, DevOps, Frontend Developer, Pakistan, Web Development, Mobile App Development",
+  keywords = "Muhammad Sadoon, MERN Stack Developer, React Native Developer, PostgreSQL expert, DevOps engineer, Frontend Developer Pakistan, Web Development Karachi, Mobile App Development, Full Stack Portfolio, Best Developer Portfolio 2026, Hire MERN Developer, Hire React Native Expert, Node.js Backend Engineer, JavaScript Specialist, TypeScript Developer, Software Engineer Portfolio, Professional Web Design, Freelance App Developer, Next.js Expert, GSAP Animation, 3D Web Experiences, Responsive Design Portfolio, Scalable Web Apps, Enterprise Software Development, Tech Portfolio Showcase, Portfolio Examples, Modern Tech Stack, App Development Services, Muhammad Sadoon Karachi, Naval Colony Developer, Pakistan Tech Talent, React Developer, Node.js Engineer, Express.js Expert, MongoDB Professional, Full Stack JavaScript, MERN Mastery, Cross-Platform Mobile Apps, iOS Developer, Android Developer, Native Performance Apps, PostgreSQL Database Design, SQL Expert, NoSQL Solutions, Redis Caching, JWT Authentication, Secure APIs, RESTful Services, GraphQL API Development, Apollo Client, Socket.io Real-time, WebSockets, Docker Containers, Containerization, Kubernetes Basics, AWS Cloud Services, Amazon Web Services, Vercel Deployment, Netlify Hosting, CI/CD Pipelines, GitHub Actions, Automated Testing, Jest, React Testing Library, Cypress E2E, Unit Testing, Integration Testing, Tailwind CSS Styling, Responsive Web Design, Adaptive Layouts, Framer Motion Animations, GSAP ScrollTrigger, 3D Web Graphics, Three.js, React Three Fiber, UI/UX Principles, User-Centric Design, Clean Code, SOLID Principles, Design Patterns, Agile Methodology, Scrum, Remote Work Expert, Freelance Software Developer, Professional Portfolio, Tech Showcase, Portfolio Templates, Modern Web Architecture, Scalable Systems, High-Availability Apps, Performance Tuning, Google Lighthouse SEO, Web Vitals Optimization, Karachi Software Industry, Pakistan IT Talent, Top Developer Pakistan, Hire Remote Engineer, Full-Cycle Development, Product Engineering, Software Solutions, Digital Transformation, Custom Web Applications, Enterprise Grade Software, Muhammad Sadoon Full Stack",
   image = "/og-image.png",
   url = "https://muhammadsadoon-portfolio.vercel.app",
 }: SEOProps) => {
@@ -121,7 +121,28 @@ export const SEO = ({
             "AWS",
             "Tailwind CSS",
             "Redux Toolkit",
-            "React Query"
+            "React Query",
+            "JavaScript",
+            "NoSQL",
+            "SQL",
+            "Redis",
+            "JWT",
+            "WebSockets",
+            "Kubernetes",
+            "CI/CD",
+            "GitHub Actions",
+            "Jest",
+            "Cypress",
+            "Three.js",
+            "React Three Fiber",
+            "UI/UX Design",
+            "Clean Code",
+            "SOLID Principles",
+            "Agile",
+            "Scrum",
+            "Scalable Architecture",
+            "Performance Optimization",
+            "SEO Strategies"
           ],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
