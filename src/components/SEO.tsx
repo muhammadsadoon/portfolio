@@ -64,6 +64,7 @@ export const SEO = ({
       <meta name="keywords" content={keywords} />
       <meta name="author" content="Muhammad Sadoon" />
       <meta name="google-site-verification" content="l-m6JALUUEzXR4kVI1YQj1ntaLO4y6zRUIKNWnah6cc" />
+      <meta name="google-site-verification" content="google7211b234ee526d02" />
 
       {/* Alternate Links (Language/Region) */}
       <link rel="alternate" href={url} hrefLang="en-pk" />
