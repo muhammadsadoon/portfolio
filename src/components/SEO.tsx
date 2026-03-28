@@ -10,7 +10,7 @@ interface SEOProps {
 
 export const SEO = ({
   title = "Muhammad Sadoon | Full Stack MERN & React Native Developer",
-  description = "Muhammad Sadoon is a Full Stack MERN Developer, PostgreSQL expert, and React Native (iOS & Android) specialist based in Pakistan. Explore his portfolio of advanced digital experiences.",
+  description = "Muhammad Sadoon is a highly skilled Full Stack MERN Developer, PostgreSQL expert, and React Native (iOS & Android) specialist based in Pakistan. With experience at App Mesh and Developerhub Corporation, he specializes in building scalable, high-performance web and mobile applications using modern technologies like Next.js, TypeScript, and Docker. Explore his professional portfolio of advanced digital experiences.",
   keywords = "Muhammad Sadoon, MERN Stack Developer, React Native Developer, PostgreSQL, DevOps, Frontend Developer, Pakistan, Web Development, Mobile App Development",
   image = "/og-image.png",
   url = "https://muhammadsadoon-portfolio.vercel.app",
@@ -63,6 +63,11 @@ export const SEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content="Muhammad Sadoon" />
+      <meta name="google-site-verification" content="l-m6JALUUEzXR4kVI1YQj1ntaLO4y6zRUIKNWnah6cc" />
+
+      {/* Alternate Links (Language/Region) */}
+      <link rel="alternate" href={url} hrefLang="en-pk" />
+      <link rel="alternate" href={url} hrefLang="x-default" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
@@ -107,8 +112,36 @@ export const SEO = ({
             "Node.js",
             "Express",
             "MongoDB",
-            "Next.js"
-          ]
+            "Next.js",
+            "REST APIs",
+            "GraphQL",
+            "Socket.io",
+            "Docker",
+            "AWS",
+            "Tailwind CSS",
+            "Redux Toolkit",
+            "React Query"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Software Development Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Full Stack Web Development"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mobile App Development"
+                }
+              }
+            ]
+          }
         })}
       </script>
       <script type="application/ld+json">
