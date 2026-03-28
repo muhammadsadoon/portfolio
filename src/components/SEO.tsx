@@ -11,7 +11,7 @@ interface SEOProps {
 export const SEO = ({
   title = "Muhammad Sadoon | Full Stack MERN & React Native Developer",
   description = "Muhammad Sadoon is a highly skilled Full Stack MERN Developer, PostgreSQL expert, and React Native (iOS & Android) specialist based in Pakistan. With experience at App Mesh and Developerhub Corporation, he specializes in building scalable, high-performance web and mobile applications using modern technologies like Next.js, TypeScript, and Docker. Explore his professional portfolio of advanced digital experiences.",
-  keywords = "Sadoon, Sadoon Portfolio, Sadoon Developer, Who is Sadoon?, Sadoon MERN, Muhammad Sadoon, MERN Stack Developer, React Native Developer, PostgreSQL expert, DevOps engineer, Frontend Developer Pakistan, Web Development Karachi, Mobile App Development, Full Stack Portfolio, Best Developer Portfolio 2026, Hire MERN Developer, Hire React Native Expert, Node.js Backend Engineer, JavaScript Specialist, TypeScript Developer, Software Engineer Portfolio, Professional Web Design, Freelance App Developer, Next.js Expert, GSAP Animation, 3D Web Experiences, Responsive Design Portfolio, Scalable Web Apps, Enterprise Software Development, Tech Portfolio Showcase, Portfolio Examples, Modern Tech Stack, App Development Services, Muhammad Sadoon Karachi, Naval Colony Developer, Pakistan Tech Talent, React Developer, Node.js Engineer, Express.js Expert, MongoDB Professional, Full Stack JavaScript, MERN Mastery, Cross-Platform Mobile Apps, iOS Developer, Android Developer, Native Performance Apps, PostgreSQL Database Design, SQL Expert, NoSQL Solutions, Redis Caching, JWT Authentication, Secure APIs, RESTful Services, GraphQL API Development, Apollo Client, Socket.io Real-time, WebSockets, Docker Containers, Containerization, Kubernetes Basics, AWS Cloud Services, Amazon Web Services, Vercel Deployment, Netlify Hosting, CI/CD Pipelines, GitHub Actions, Automated Testing, Jest, React Testing Library, Cypress E2E, Unit Testing, Integration Testing, Tailwind CSS Styling, Responsive Web Design, Adaptive Layouts, Framer Motion Animations, GSAP ScrollTrigger, 3D Web Graphics, Three.js, React Three Fiber, UI/UX Principles, User-Centric Design, Clean Code, SOLID Principles, Design Patterns, Agile Methodology, Scrum, Remote Work Expert, Freelance Software Developer, Professional Portfolio, Tech Showcase, Portfolio Templates, Modern Web Architecture, Scalable Systems, High-Availability Apps, Performance Tuning, Google Lighthouse SEO, Web Vitals Optimization, Karachi Software Industry, Pakistan IT Talent, Top Developer Pakistan, Hire Remote Engineer, Full-Cycle Development, Product Engineering, Software Solutions, Digital Transformation, Custom Web Applications, Enterprise Grade Software, Muhammad Sadoon Full Stack, MongoDB Aggregation, Mongoose ORM, Express Middleware, React Hooks, Redux Toolkit, Node.js Event Loop, REST API Design, API Security, Database Optimization, NoSQL Architecture, Server-side Logic, Full Stack Security, PM2, Nginx, API Rate Limiting, CORS, Helmet.js, Winston, Morgan, Bcrypt, Dotenv, Joi, Zod, Swagger, OpenAPI",
+  keywords = "Sadoon, Sadoon Portfolio, Sadoon Developer, Who is Sadoon?, Sadoon MERN, Muhammad Sadoon, MERN Stack Developer, React Native Developer, Resume Builder React, SocialBook MERN, WebRTC Screen Sharing, Student Management System, Real-time Chat App, React Portfolio, AI-first Web Development, Next.js App Router, Astro Islands Architecture, Edge Computing Developer, WebAssembly Wasm, tRPC Type Safety, Tailwind CSS v4, Container Queries, Component-Driven Design, Zero-runtime frameworks, Scalable TypeScript, Agentic UI, Privacy-first Architecture, Core Web Vitals 2026, WebAR, 3D Web Rendering, Server Components, Hydration Strategies, Micro-frontends, PostgreSQL expert, DevOps engineer, Frontend Developer Pakistan, Web Development Karachi, Mobile App Development, Full Stack Portfolio, Best Developer Portfolio 2026, Hire MERN Developer, Hire React Native Expert, Node.js Backend Engineer, JavaScript Specialist, TypeScript Developer, Software Engineer Portfolio, Professional Web Design, Freelance App Developer, Next.js Expert, GSAP Animation, 3D Web Experiences, Responsive Design Portfolio, Scalable Web Apps, Enterprise Software Development, Tech Portfolio Showcase, Portfolio Examples, Modern Tech Stack, App Development Services, Muhammad Sadoon Karachi, Naval Colony Developer, Pakistan Tech Talent, React Developer, Node.js Engineer, Express.js Expert, MongoDB Professional, Full Stack JavaScript, MERN Mastery, Cross-Platform Mobile Apps, iOS Developer, Android Developer, Native Performance Apps, PostgreSQL Database Design, SQL Expert, NoSQL Solutions, Redis Caching, JWT Authentication, Secure APIs, RESTful Services, GraphQL API Development, Apollo Client, Socket.io Real-time, WebSockets, Docker Containers, Containerization, Kubernetes Basics, AWS Cloud Services, Amazon Web Services, Vercel Deployment, Netlify Hosting, CI/CD Pipelines, GitHub Actions, Automated Testing, Jest, React Testing Library, Cypress E2E, Unit Testing, Integration Testing, Tailwind CSS Styling, Responsive Web Design, Adaptive Layouts, Framer Motion Animations, GSAP ScrollTrigger, 3D Web Graphics, Three.js, React Three Fiber, UI/UX Principles, User-Centric Design, Clean Code, SOLID Principles, Design Patterns, Agile Methodology, Scrum, Remote Work Expert, Freelance Software Developer, Professional Portfolio, Tech Showcase, Portfolio Templates, Modern Web Architecture, Scalable Systems, High-Availability Apps, Performance Tuning, Google Lighthouse SEO, Web Vitals Optimization, Karachi Software Industry, Pakistan IT Talent, Top Developer Pakistan, Hire Remote Engineer, Full-Cycle Development, Product Engineering, Software Solutions, Digital Transformation, Custom Web Applications, Enterprise Grade Software, Muhammad Sadoon Full Stack, MongoDB Aggregation, Mongoose ORM, Express Middleware, React Hooks, Redux Toolkit, Node.js Event Loop, REST API Design, API Security, Database Optimization, NoSQL Architecture, Server-side Logic, Full Stack Security, PM2, Nginx, API Rate Limiting, CORS, Helmet.js, Winston, Morgan, Bcrypt, Dotenv, Joi, Zod, Swagger, OpenAPI",
   image = "/og-image.png",
   url = "https://muhammadsadoon-portfolio.vercel.app",
 }: SEOProps) => {
@@ -84,6 +84,9 @@ export const SEO = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
+      <meta property="instagram:username" content="muhammadsadoon_developer" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:site_name" content={siteName} />
 
       {/* Canonical Link */}
       <link rel="canonical" href={url} />
@@ -101,7 +104,8 @@ export const SEO = ({
           "description": description,
           "sameAs": [
             "https://github.com/muhammadsadoon",
-            "https://linkedin.com/in/muhammadsadoon"
+            "https://www.linkedin.com/in/muhammad-sadoon-94303a352/",
+            "https://www.instagram.com/muhammadsadoonsohail/"
           ],
           "knowsAbout": [
             "MERN Stack",
@@ -143,7 +147,27 @@ export const SEO = ({
             "Scrum",
             "Scalable Architecture",
             "Performance Optimization",
-            "SEO Strategies"
+            "SEO Strategies",
+            "Frontend Development",
+            "Backend Development",
+            "Full Stack Engineering",
+            "Mobile App Architecture",
+            "Real-time Systems",
+            "Cloud Hosting",
+            "Serverless Functions",
+            "Component-Driven Design",
+            "AI Integration",
+            "Agentic Workflows",
+            "Next.js App Router",
+            "Astro Islands",
+            "Edge Computing",
+            "WebAssembly",
+            "tRPC",
+            "Tailwind v4",
+            "Container Queries",
+            "Zero-runtime Frameworks",
+            "WebAR/WebVR",
+            "Hydration Optimization"
           ],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
@@ -162,6 +186,20 @@ export const SEO = ({
                   "@type": "Service",
                   "name": "Mobile App Development"
                 }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "React Native Mobile App Development"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Backend API Architecture & Security"
+                }
               }
             ]
           }
@@ -169,6 +207,101 @@ export const SEO = ({
       </script>
       <script type="application/ld+json">
         {JSON.stringify(faqSchema)}
+      </script>
+
+      {/* Professional Service Schema */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Muhammad Sadoon Tech Solutions",
+          "image": image,
+          "url": url,
+          "telephone": "",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karachi",
+            "addressCountry": "PK"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "24.8607",
+            "longitude": "67.0011"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          "sameAs": [
+            "https://github.com/muhammadsadoon",
+            "https://www.linkedin.com/in/muhammad-sadoon-94303a352/",
+            "https://www.instagram.com/muhammadsadoonsohail/"
+          ]
+        })}
+      </script>
+
+      {/* CreativeWork Schema for Projects */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Resume Builder",
+                "description": "A dynamic resume builder with PDF export, modern templates, and intuitive form handling.",
+                "url": "https://github.com/muhammadsadoon",
+                "author": { "@type": "Person", "name": "Muhammad Sadoon" }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Student Management",
+                "description": "Comprehensive system for managing students and academic records with scalable architecture.",
+                "url": "https://github.com/muhammadsadoon",
+                "author": { "@type": "Person", "name": "Muhammad Sadoon" }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "Screen Sharing App",
+                "description": "Real-time screen sharing using WebRTC with room-based connections and Firebase signaling.",
+                "url": "https://github.com/muhammadsadoon",
+                "author": { "@type": "Person", "name": "Muhammad Sadoon" }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CreativeWork",
+                "name": "SocialBook",
+                "description": "Full-featured social platform with auth, real-time chat, posts, and modern UI.",
+                "url": "https://github.com/muhammadsadoon",
+                "author": { "@type": "Person", "name": "Muhammad Sadoon" }
+              }
+            }
+          ]
+        })}
       </script>
     </Helmet>
   );

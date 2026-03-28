@@ -159,6 +159,7 @@ export const Projects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`View Source Code for ${project.title} on GitHub`}
                       className="inline-flex items-center gap-2 font-mono text-sm text-foreground hover:text-foreground/60 transition-colors"
                     >
                       <Github className="h-4 w-4" />

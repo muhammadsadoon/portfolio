@@ -119,16 +119,16 @@ export const Hero = () => {
             <Github className="h-5 w-5" />
           </a>
         </MagneticButton>
-        <MagneticButton>
-          <a
-            href="https://www.linkedin.com/in/muhammad-sadoon-94303a352/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block p-2 text-muted-foreground hover:text-foreground transition-colors duration-300"
-          >
-            <Linkedin className="h-5 w-5" />
-          </a>
-        </MagneticButton>
+            <MagneticButton>
+              <a
+                href="https://www.linkedin.com/in/muhammad-sadoon-94303a352/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-full border border-foreground/20 flex items-center justify-center hover:bg-foreground hover:border-foreground group transition-all duration-300"
+              >
+                <Linkedin className="h-5 w-5 text-foreground/60 group-hover:text-background transition-colors" />
+              </a>
+            </MagneticButton>
         <MagneticButton>
           <a
             href="mailto:muhammadsadoonsohail786@gmail.com"

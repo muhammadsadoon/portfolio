@@ -98,8 +98,9 @@ export const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:muhammadsadoonsohail786@gmail.com.dev"
+                href="mailto:muhammadsadoonsohail786@gmail.com"
                 className="contact-element flex items-center gap-4 text-foreground hover:text-foreground/60 transition-colors group"
+                aria-label="Send Email"
               >
                 <div className="w-12 h-12 rounded-full border border-foreground/20 flex items-center justify-center group-hover:bg-foreground group-hover:border-foreground transition-all duration-300">
                   <Mail className="h-5 w-5 group-hover:text-background transition-colors" />

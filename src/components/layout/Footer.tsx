@@ -32,18 +32,46 @@ export const Footer = () => {
             </MagneticButton>
             <MagneticButton>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/muhammad-sadoon-94303a352/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors p-2"
+                aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
             </MagneticButton>
             <MagneticButton>
               <a
-                href="mailto:contact@muhammadsadoon.dev"
+                href="https://www.instagram.com/muhammadsadoonsohail/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors p-2"
+                aria-label="Instagram"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-instagram"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+              </a>
+            </MagneticButton>
+            <MagneticButton>
+              <a
+                href="mailto:muhammadsadoonsohail786@gmail.com"
+                className="text-muted-foreground hover:text-foreground transition-colors p-2"
+                aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
